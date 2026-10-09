@@ -1,0 +1,116 @@
+# ==========================================
+# PYTHON VIRTUAL ENVIRONMENTS
+# ==========================================
+.venv/
+.venv311/
+venv/
+env/
+
+# ==========================================
+# PYTHON CACHE AND COMPILED FILES
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.coverage
+htmlcov/
+
+# ==========================================
+# MACHINE LEARNING MODELS - LARGE FILES
+# ==========================================
+# Model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.h5
+*.hdf5
+*.pb
+*.tflite
+*.pkl
+*.pickle
+*.joblib
+
+# ==========================================
+# DATASETS AND AUDIO FILES
+# ==========================================
+# Large datasets
+data/
+LibriSpeech/
+
+# Audio recordings
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.ogg
+*.opus
+*.aac
+*.wma
+
+# ==========================================
+# GENERATED ARTIFACTS AND RESULTS
+# ==========================================
+artifacts/
+results/
+
+# ==========================================
+# RAG GENERATED INDEX AND STORAGE
+# ==========================================
+# Keep RAG source code and knowledge Markdown files.
+# Ignore generated indexes and serialized data.
+rag/storage/*
+!rag/storage/README.md
+
+# Common generated indexes
+chunks.json
+tfidf_index.joblib
+
+# ==========================================
+# FRONTEND DEPENDENCIES
+# ==========================================
+web/node_modules/
+node_modules/
+
+# ==========================================
+# FRONTEND BUILD OUTPUT
+# ==========================================
+web/dist/
+web/build/
+
+# ==========================================
+# ENVIRONMENT VARIABLES AND SECRETS
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# LOGS AND TEMPORARY FILES
+# ==========================================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# IDE AND EDITOR FILES
+# ==========================================
+.vscode/
+.idea/
+
+# ==========================================
+# BACKUP FILES
+# ==========================================
+api/main_backup.py
+*~
